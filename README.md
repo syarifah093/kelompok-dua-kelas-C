@@ -26,7 +26,7 @@ Simple Calculator with Menu
 
 ## 3. Project Description
 
-This program is a simple game in which the player must guess a number determined by the computer.
+This program is a simple calculator with a menu that allows users to perform basic mathematical operations, including addition, subtraction, multiplication, and division. The program also handles division by zero and allows users to perform calculations repeatedly until they choose the exit option.
 
 ---
 
@@ -46,10 +46,15 @@ This project is designed to apply the following programming concepts:
 
 ## 5. Input
 
-The program receives:
-
-- The player's guess
-- The number of attempts
+The program receives the following inputs from the user :
+1. Menu choice (1-5):
+- for Addition
+- for Subtraction
+- for Multiplication
+- for Division
+- to Exit
+2. First number, used as the first operand for the selected operation.
+3. Second number, used as the second operand for the selected operation.
 
 ---
 
