@@ -20,7 +20,7 @@
 
 ## 2. Project Title
 
-Number Guessing Game
+Simple Calculator with Menu
 
 ---
 
