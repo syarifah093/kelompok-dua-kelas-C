@@ -1,0 +1,69 @@
+// Function to validate & parse numbers
+function getNumber(promptMsg) {
+  let input = prompt(promptMsg);
+  if (input === null) return null; // cancel
+  let num = parseFloat(input);
+  if (isNaN(num)) return NaN;
+  return num;
+}
+
+// Main loop
+let running = true;
+do {
+  let choice = prompt(
+    "=== SIMPLE CALCULATOR WITH MENU ===\n" +
+    "1. Penjumlahan (+)\n" +
+    "2. Pengurangan (-)\n" +
+    "3. Perkalian (*)\n" +
+    "4. Pembagian (/)\n" +
+    "5. Keluar\n\n" +
+    "Pilih menu (1-5):"
+  );
+
+  if (choice === null || choice === "5") {
+    alert("Terima kasih telah menggunakan kalkulator, senang bisa membantu :)");
+    running = false;
+    continue;
+  }
+
+  if (!["1", "2", "3", "4"].includes(choice)) {
+    alert("Pilihan tidak valid! Silakan pilih 1-5.");
+    continue;
+  }
+
+  let angka1 = getNumber("Masukkan angka pertama:");
+  if (angka1 === null) continue; // cancel
+  if (isNaN(angka1)) {
+    alert("Error: Input harus angka!");
+    continue;
+  }
+
+  let angka2 = getNumber("Masukkan angka kedua:");
+  if (angka2 === null) continue;
+  if (isNaN(angka2)) {
+    alert("Error: Input harus angka!");
+    continue;
+  }
+
+  let hasil;
+  switch (choice) {
+    case "1": hasil = angka1 + angka2; break;
+    case "2": hasil = angka1 - angka2; break;
+    case "3": hasil = angka1 * angka2; break;
+    case "4":
+      if (angka2 === 0) {
+        alert("TIDAK TERDIFINISI");
+        continue;
+      }
+      hasil = angka1 / angka2;
+      break;
+  }
+
+  alert(Hasil: ${angka1} ${proc(choice)} ${angka2} = ${hasil});
+
+} while (running);
+
+// Helper for symbol display
+function proc(c) {
+  return c === "1" ? "+" : c === "2" ? "-" : c === "3" ? "*" : "/";
+}
