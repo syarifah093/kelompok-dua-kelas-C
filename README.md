@@ -94,7 +94,7 @@ The algorithm used in the program is described in:
 The flowchart is created using Flowgorithm.
 
 File:
-`[TUGAS FLOWCHART LPP KEL2.fprg](TUGAS FLOWCHART LPP KEL2.fprg)`
+`[TUGAS FLOWCHART LPP KEL2.fprg]`
 
 ---
 
