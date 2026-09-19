@@ -1,0 +1,47 @@
+Function Main
+    Declare Integer pilihan, angka1, angka2, hasil
+
+    Assign pilihan = 0
+    While pilihan !=5
+        Output "1.Penjumlahan, 2. Pengurangan, 3. Perkalian, 4. Pembagian, 5. Keluar"
+        Input pilihan
+        If pilihan == 1
+            Input angka1
+            Input angka2
+            Assign hasil = angka1+angka2
+            Output "Hasil: " & hasil
+        Else
+            If pilihan == 2
+                Input angka1
+                Input angka2
+                Assign hasil = angka1-angka2
+                Output "Hasil: " & hasil
+            Else
+                If pilihan == 3
+                    Input angka1
+                    Input angka2
+                    Assign hasil = angka1*angka2
+                    Output "Hasil: " & hasil
+                Else
+                    If pilihan == 4
+                        Input angka1
+                        Input angka2
+                        If angka2 == 0
+                            Declare String error
+
+                            Assign error = "Tidak terdefinisikan"
+                            Output "Hasil: " & error
+                        Else
+                            Assign hasil = angka1/angka2
+                            Output "Hasil: " & hasil
+                        End
+                    Else
+                        If pilihan == 5
+                            Output "Terima kasih"
+                        End
+                    End
+                End
+            End
+        End
+    End
+End
