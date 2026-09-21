@@ -86,7 +86,7 @@ The program displays :
 
 The algorithm used in the program is described in:
 
-`pseudocode.txt`
+[pseudocode .txt](pseudocode .txt)
 
 ---
 
@@ -95,7 +95,7 @@ The algorithm used in the program is described in:
 The flowchart is created using Flowgorithm.
 
 File:
-`[FLOWCHART.fprg](FLOWCHART.fprg)`
+[FLOWCHART.fprg](FLOWCHART.fprg)
 
 ---
 
@@ -103,7 +103,7 @@ File:
 
 The JavaScript implementation of the program is available in:
 
-`program.js`
+[JAVASCRIPT](JAVASCRIPT)
 
 ---
 
@@ -113,4 +113,4 @@ The program is tested using several test scenarios.
 
 Testing documentation:
 
-`(https://github.com/syarifah093/kelompok-dua-kelas-C/blob/cfaf670faa9b8b06e7bd254b681e54486c0fd836/TEST-CASES.md)`
+[TEST-CASES.md](TEST-CASES.md)
