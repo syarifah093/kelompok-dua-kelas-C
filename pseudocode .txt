@@ -1,5 +1,5 @@
 Function Main
-    Declare Integer pilihan, angka1, angka2, hasil
+    Declare Real pilihan, angka1, angka2, hasil
 
     Assign pilihan = 0
     While pilihan !=5
