@@ -113,4 +113,4 @@ The program is tested using several test scenarios.
 
 Testing documentation:
 
-`test-cases.md`
+`TEST-CASES.md`
