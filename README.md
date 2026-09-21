@@ -59,25 +59,26 @@ The program receives the following inputs from the user :
 ---
 
 ## 6. Process
+The program processes the user's input based on the selected menu : 
 
-The program compares the player's guess with the target number.
+1. Display the calculator menu and receive the user's choice.
+2. If the user selects an operation from 1 to 4, the program receives two numbers.
+3. Perform the selected mathematical operation:
+   - Addition for choice 1
+   - Subtraction for choice 2
+   - Multiplication for choice 3
+   - Division for choice 4
+4. For division, check whether the second number is zero before performing the calculation.
+5. Display the calculation result or an appropriate error message.
+6. Repeat the process until the user selects option 5 to exit.
 
-If the guess is:
-
-- Too high → the program provides a "too high" message
-- Too low → the program provides a "too low" message
-- Correct → the player wins
-
----
 
 ## 7. Output
-
-The program displays:
-
-- The result of each guess
-- Hints or feedback
-- The number of remaining attempts
-- The final game status (win/loss)
+The program displays :
+1. The result of the selected mathematical operation.
+2. An error massage if the user attempts to devide by zero.
+3. An error massage if the user enters an invalid menu choice.
+4. An exit massage when the user selects  option 5. 
 
 ---
 
