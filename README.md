@@ -86,7 +86,7 @@ The program displays :
 
 The algorithm used in the program is described in:
 
-[pseudocode .txt](pseudocode .txt)
+[pseudocode.txt](pseudocode.txt)
 
 ---
 
