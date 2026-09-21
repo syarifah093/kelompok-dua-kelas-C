@@ -113,4 +113,4 @@ The program is tested using several test scenarios.
 
 Testing documentation:
 
-`(TEST-CASES.md)`
+`(https://github.com/syarifah093/kelompok-dua-kelas-C/blob/cfaf670faa9b8b06e7bd254b681e54486c0fd836/TEST-CASES.md)`
